@@ -10136,7 +10136,7 @@ namespace VULKAN_HPP_NAMESPACE
     }
 
     VULKAN_HPP_NODISCARD VULKAN_HPP_INLINE void *
-                         DeviceMemory::mapMemory( VULKAN_HPP_NAMESPACE::DeviceSize     offset,
+      DeviceMemory::mapMemory( VULKAN_HPP_NAMESPACE::DeviceSize     offset,
                                VULKAN_HPP_NAMESPACE::DeviceSize     size,
                                VULKAN_HPP_NAMESPACE::MemoryMapFlags flags ) const
     {

@@ -10,6 +10,7 @@
 
 namespace VULKAN_HPP_NAMESPACE
 {
+
   template <typename EnumType, EnumType value>
   struct CppType
   {};
