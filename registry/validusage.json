@@ -2,8 +2,8 @@
   "version info": {
     "schema version": 2,
     "api version": "1.2.203",
-    "comment": "from git branch: github-main commit: ac23aa229fd9b8ea06aa99cf07b79cdc15af406f",
-    "date": "2021-12-20 11:55:32Z"
+    "comment": "from git branch: Git branch not available commit: 5a1f1580c773f0db57507e6de14a34e4613f3a38",
+    "date": "2022-01-24 23:57:08Z"
   },
   "validation": {
     "vkGetInstanceProcAddr": {

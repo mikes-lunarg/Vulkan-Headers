@@ -10,6 +10,7 @@
 
 namespace VULKAN_HPP_NAMESPACE
 {
+
   template <typename EnumType, EnumType value>
   struct CppType
   {};
@@ -5252,7 +5253,8 @@ namespace VULKAN_HPP_NAMESPACE
     eMesaTurnip              = VK_DRIVER_ID_MESA_TURNIP,
     eMesaV3Dv                = VK_DRIVER_ID_MESA_V3DV,
     eMesaPanvk               = VK_DRIVER_ID_MESA_PANVK,
-    eSamsungProprietary      = VK_DRIVER_ID_SAMSUNG_PROPRIETARY
+    eSamsungProprietary      = VK_DRIVER_ID_SAMSUNG_PROPRIETARY,
+    eMesaVenus               = VK_DRIVER_ID_MESA_VENUS
   };
   using DriverIdKHR = DriverId;
 
@@ -5281,6 +5283,7 @@ namespace VULKAN_HPP_NAMESPACE
       case DriverId::eMesaV3Dv: return "MesaV3Dv";
       case DriverId::eMesaPanvk: return "MesaPanvk";
       case DriverId::eSamsungProprietary: return "SamsungProprietary";
+      case DriverId::eMesaVenus: return "MesaVenus";
       default: return "invalid ( " + VULKAN_HPP_NAMESPACE::toHexString( static_cast<uint32_t>( value ) ) + " )";
     }
   }
